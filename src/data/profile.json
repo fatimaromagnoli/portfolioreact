@@ -1,0 +1,232 @@
+{
+  "Name": "Ari Horowitz",
+  "Position": "Software Developer",
+  "Description": "Full Stack Web Developer and experienced Data Operations Analyst",
+  "Address": "Seattle, WA",
+  "Company": "Launch Consulting",
+  "School": "University of Oregon",
+  "SocialMedias": [
+    "https://github.com/ariehh1",
+    "https://www.linkedin.com/in/arihorowitz/"
+  ],
+  "experiences": [
+    {
+      "companyName": "Launch Consulting - Microsoft",
+      "url": "https://launchconsulting.com/",
+      "roles": [
+        {
+          "title": "Data Analyst",
+          "description": "Uphold data integrity and cleanliness within MS Sales and downstream systems",
+          "startDate": "2019-11-15",
+          "currentJob": true,
+          "location": "Seattle, WA"
+        }
+      ]
+    },
+    {
+      "companyName": "Nintex",
+      "url": "https://www.nintex.com/",
+      "roles": [
+        {
+          "title": "Customer Renewals Manager",
+          "description": "Ensured timely communication, accuracy, and execution of customer renewals",
+          "startDate": "2019-07",
+          "endDate": "2019-11",
+          "location": "Bellevue, WA"
+        }
+      ]
+    },
+    {
+      "companyName": "Microsoft - Bing Ads",
+      "url": "https://ads.microsoft.com/",
+      "roles": [
+        {
+          "title": "SEM Operations Analyst",
+          "description": "Data and reporting analyst for clients spending over $50k/month on paid search",
+          "startDate": "2017-03",
+          "endDate": "2019-07",
+          "location": "Seattle, WA"
+        }
+      ]
+    }
+  ],
+  "Skills": [
+    {
+      "Area": "Web-Based Application Development",
+      "SkillSet": [
+        {
+          "Name": "JavaScript (ES5, ES6)",
+          "Hot": true
+        },
+        {
+          "Name": "HTML5",
+          "Hot": true
+        },
+        {
+          "Name": "CSS (SCSS/SASS)",
+          "Hot": true
+        },
+        {
+          "Name": "React",
+          "Hot": true
+        },
+        {
+          "Name": "JQuery",
+          "Hot": true
+        },
+        {
+          "Name": "NPM",
+          "Hot": true
+        },
+        {
+          "Name": "WebPack",
+          "Hot": true
+        }
+      ]
+    },
+    {
+      "Area": "Databases",
+      "SkillSet": [
+        {
+          "Name": "MongoDB",
+          "Hot": true
+        },
+        {
+          "Name": "MySQL",
+          "Hot": true
+        },
+        {
+          "Name": "Sequelize",
+          "Hot": true
+        }
+      ]
+    },
+    {
+      "Area": "Software Development Tools and Concepts",
+      "SkillSet": [
+        {
+          "Name": "Agile",
+          "Hot": true
+        },
+        {
+          "Name": "MERN",
+          "Hot": true
+        },
+        {
+          "Name": "Model View Controller (MVC)",
+          "Hot": true
+        },
+        {
+          "Name": "Progressive Web Apps (PWA)",
+          "Hot": true
+        }
+      ]
+    },
+    {
+      "Area": "Test Driven Development",
+      "SkillSet": [
+        {
+          "Name": "Jest",
+          "Hot": true
+        },
+        {
+          "Name": "Mocha",
+          "Hot": true
+        },
+        {
+          "Name": "Chai",
+          "Hot": true
+        },
+        {
+          "Name": "Continuous Integration",
+          "Hot": true
+        }
+      ]
+    },
+    {
+      "Area": "Platforms",
+      "SkillSet": [
+        {
+          "Name": "Windows",
+          "Hot": true
+        },
+        {
+          "Name": "Mac OS",
+          "Hot": true
+        }
+      ]
+    }
+  ],
+  "Projects": [
+    {
+      "Name": "Pocket Bartender",
+      "Description": "Personal liquor inventory tracker and cocktail recipe inspiration!",
+      "ScreenShotURL": "./Pocket-Bartender.png",
+      "ProjectLink": "https://ariehh1.github.io/pocket-bartender/",
+      "GithubLink": "https://github.com/ariehh1/pocket-bartender"
+    },
+    {
+      "Name": "Dungeons & Dragons Character Generator",
+      "Description": "Character generator simulation within the Dungeons & Dragons game.",
+      "ScreenShotURL": "./dd.png",
+      "ProjectLink": "https://chargenproj.herokuapp.com/",
+      "GithubLink": "https://github.com/ariehh1/project2"
+    },
+    {
+      "Name": "Employee Directory",
+      "Description": "An Employee Directory built for a manager or other employees to view non-sensitive data. Utilized a React Front-End.",
+      "ScreenShotURL": "./employee.png",
+      "ProjectLink": "https://ariehh1.github.io/Employee-Directory/",
+      "GithubLink": "https://github.com/ariehh1/Employee-Directory"
+    },
+    {
+      "Name": "Budget Tracker",
+      "Description": "A Budget Tracker application designed for the user to add their expenses and deposits with or without an internet connection. Progressive Web Application powered by IndexedDB.",
+      "ScreenShotURL": "./moneyicon192x192.png",
+      "ProjectLink": "https://aqueous-eyrie-65339.herokuapp.com/",
+      "GithubLink": "https://github.com/ariehh1/Budget-Tracker"
+    },
+    {
+      "Name": "Burger Appliction",
+      "Description": "Restaurant app that allows users to input the name of a burger they enjoy.",
+      "ScreenShotURL": "./burger.png",
+      "ProjectLink": "https://glacial-atoll-54265.herokuapp.com/",
+      "GithubLink": "https://github.com/ariehh1/Burger"
+    },
+    {
+      "Name": "Note Taker",
+      "Description": "Write, save, and delete any note.",
+      "ScreenShotURL": "./note.png",
+      "ProjectLink": "https://ariehh1-note-taker.herokuapp.com/",
+      "GithubLink": "https://github.com/ariehh1/Note-Taker"
+    }
+  ],
+  "Education": [
+    {
+      "SchoolName": "University of Oregon",
+      "Date": "2013",
+      "Degree": "Environmental Studies and Business Administration",
+      "Location": "Eugene, OR",
+      "SchoolImage": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
+      "SchoolLink": "https://www.uoregon.edu/",
+      "Awards": [
+        {
+          "Name": "Award 1",
+          "Date": "Mar 2017",
+          "Region": "Vancouver BC. Canada",
+          "Organization": "Demo",
+          "Description": "Demo award",
+          "Link": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+        },
+        {
+          "Name": "Award 2",
+          "Date": "May 2019",
+          "Region": "Toronto ON. Canada",
+          "Organization": "Demo",
+          "Description": "Demo award",
+          "Link": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
+        }
+      ]
+    }
+  ]
+}
