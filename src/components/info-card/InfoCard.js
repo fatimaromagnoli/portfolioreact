@@ -29,7 +29,7 @@ class InfoCard extends Component {
             <Avatar
               alt={profile.Name}
               className={styles.bigAvatar}
-              src={require("../../img/Ari.jpeg")}
+              src={require("../../img")}
             />
           </Grid>
           <Grid item xs={12}>
