@@ -2,9 +2,12 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import devgrub from '../assets/images/devgrub.png';
-import youtube from '../assets/images/youtube.png';
-import evverest from '../assets/images/evverest.png';
+import project1 from '../assets/images/project1.JPG';
+// import project2 from '../assets/images/help4usprojectsnip.JPG';
+import planner from '../assets/images/evverest.png';
+import password  from '../assets/images/evverest.png';
+// import  from '../assets/images/evverest.png';
+// import evverest from '../assets/images/evverest.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -16,29 +19,62 @@ class Carousel extends React.Component {
             items: [
                 {
                     id: 0,
-                    title: 'Full Stack Developes',
-                    subTitle: 'The cookbook for developers',
-                    imgSrc: devgrub,
-                    link: 'https://devgrub.com',
+                    title: 'Web Development ',
+                    subTitle: 'New Years Resolution',
+                    imgSrc:project1,
+                    link: 'https://xzengeric.github.io/Project1/project1.html',
+                    selected: false
+                },
+                // // {
+                //     id: 1,
+                //     title: 'Web Development',
+                //     subTitle: 'Help 4 us',
+                //     imgSrc: project2,
+                //     link: 'https://four-us.herokuapp.com/',
+                //     selected: false
+                // },
+                {
+                    id: 2,
+                    title: 'Web development',
+                    subTitle: 'Planner',
+                    imgSrc: planner,
+                    link: 'https://github.com/fatimaromagnoli/dayplannerhw',
                     selected: false
                 },
                 {
-                    id: 1,
-                    title: 'Fatima Romagnoli',
-                    //eslint=disable-next-line
-                    // subTitle: 'YouTube channel',
-                    // imgSrc: youtube,
-                    // link: 'https://www.youtube.com/channel/UCxSITxL2JbF229OGCqieVZw',
-                    // selected: false
-                },
-                {
-                    id: 2,
+                    id: 3,
                     title: 'Evverest',
                     subTitle: 'A social network for developers',
-                    imgSrc: evverest,
+                    imgSrc: password,
                     link: 'https://github.com/garrettlove8/evverest',
                     selected: false
                 },
+                // {
+                //     id: 4,
+                //     title: 'Evverest',
+                //     subTitle: 'A social network for developers',
+                //     imgSrc: evverest,
+                //     link: 'https://github.com/garrettlove8/evverest',
+                //     selected: false
+                // },
+                // {
+                //     id: 5,
+                //     title: 'Evverest',
+                //     subTitle: 'A social network for developers',
+                //     imgSrc: evverest,
+                //     link: 'https://github.com/garrettlove8/evverest',
+                //     selected: false
+                // },
+                // {
+                //     id: 6,
+                //     title: 'Evverest',
+                //     subTitle: 'A social network for developers',
+                //     imgSrc: evverest,
+                //     link: 'https://github.com/garrettlove8/evverest',
+                //     selected: false
+                // },
+                
+                
             ]
         }
     }
