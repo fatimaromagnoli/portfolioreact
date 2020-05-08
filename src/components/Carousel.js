@@ -2,7 +2,7 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import project1 from '../assets/images/project1.JPG';
+import project1 from '../assets/images/planner.JPG';
 // import project2 from '../assets/images/help4usprojectsnip.JPG';
 import planner from '../assets/images/evverest.png';
 import password  from '../assets/images/evverest.png';
