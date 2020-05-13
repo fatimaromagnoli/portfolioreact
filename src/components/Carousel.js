@@ -6,8 +6,6 @@ import project1 from '../assets/images/recipes.PNG';
 import help from '../assets/images/help.PNG';
 import planner from '../assets/images/planner.JPG';
 // import password  from '../assets/images/help4usprojectsnip.JPG';
-// import  from '../assets/images/evverest.png';
-// import evverest from '../assets/images/evverest.png';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
@@ -41,38 +39,7 @@ class Carousel extends React.Component {
                     link: 'https://github.com/fatimaromagnoli/dayplannerhw',
                     selected: false
                 },
-                // {
-                //     id: 3,
-                //     title: 'Evverest',
-                //     subTitle: 'A social network for developers',
-                //     imgSrc: ,
-                //     link: 'https://github.com/garrettlove8/evverest',
-                //     selected: false
-                // },
-                // {
-                //     id: 4,
-                //     title: 'Evverest',
-                //     subTitle: 'A social network for developers',
-                //     imgSrc: evverest,
-                //     link: 'https://github.com/garrettlove8/evverest',
-                //     selected: false
-                // },
-                // {
-                //     id: 5,
-                //     title: 'Evverest',
-                //     subTitle: 'A social network for developers',
-                //     imgSrc: evverest,
-                //     link: 'https://github.com/garrettlove8/evverest',
-                //     selected: false
-                // },
-                // {
-                //     id: 6,
-                //     title: 'Evverest',
-                //     subTitle: 'A social network for developers',
-                //     imgSrc: evverest,
-                //     link: 'https://github.com/garrettlove8/evverest',
-                //     selected: false
-                // },
+                
             ]
                 
             
