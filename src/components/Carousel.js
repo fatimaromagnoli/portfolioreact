@@ -2,10 +2,10 @@ import React from 'react';
 
 import Card from '../components/Card';
 
-import project1 from '../assets/images/planner.JPG';
-// import project2 from '../assets/images/help4usprojectsnip.JPG';
-import planner from '../assets/images/evverest.png';
-import password  from '../assets/images/evverest.png';
+import project1 from '../assets/images/recipes.PNG';
+import help from '../assets/images/help.PNG';
+import planner from '../assets/images/planner.JPG';
+// import password  from '../assets/images/help4usprojectsnip.JPG';
 // import  from '../assets/images/evverest.png';
 // import evverest from '../assets/images/evverest.png';
 import Container from 'react-bootstrap/Container';
@@ -25,14 +25,14 @@ class Carousel extends React.Component {
                     link: 'https://xzengeric.github.io/Project1/project1.html',
                     selected: false
                 },
-                // // {
-                //     id: 1,
-                //     title: 'Web Development',
-                //     subTitle: 'Help 4 us',
-                //     imgSrc: project2,
-                //     link: 'https://four-us.herokuapp.com/',
-                //     selected: false
-                // },
+                {
+                    id: 1,
+                    title: 'Web Development',
+                    subTitle: 'Help 4 us',
+                    imgSrc: help,
+                    link: 'https://four-us.herokuapp.com/',
+                    selected: false
+                },
                 {
                     id: 2,
                     title: 'Web development',
@@ -41,14 +41,14 @@ class Carousel extends React.Component {
                     link: 'https://github.com/fatimaromagnoli/dayplannerhw',
                     selected: false
                 },
-                {
-                    id: 3,
-                    title: 'Evverest',
-                    subTitle: 'A social network for developers',
-                    imgSrc: password,
-                    link: 'https://github.com/garrettlove8/evverest',
-                    selected: false
-                },
+                // {
+                //     id: 3,
+                //     title: 'Evverest',
+                //     subTitle: 'A social network for developers',
+                //     imgSrc: ,
+                //     link: 'https://github.com/garrettlove8/evverest',
+                //     selected: false
+                // },
                 // {
                 //     id: 4,
                 //     title: 'Evverest',
@@ -73,9 +73,9 @@ class Carousel extends React.Component {
                 //     link: 'https://github.com/garrettlove8/evverest',
                 //     selected: false
                 // },
-                
-                
             ]
+                
+            
         }
     }
 
