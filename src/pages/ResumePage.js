@@ -1,11 +1,32 @@
+import React, { useState } from 'react';
+import resume from '../assets/Fatinha_resume.pdf';
+import { Document, Page, pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-import React from 'react';
-import resume from '../assets/images/Fatinha resume.pdf'; 
+function ResumePage() {
+    const [numPages, setNumPages] = useState(null)
+    const [pageNumber, setPageNumber] = useState(1)
 
-function ResumePage(){
-    return(
+    const onDocumentLoadSuccess = ({ numPages }) => {
+        setNumPages(numPages);
+    }
+
+    return (
         <div>
-             <img src={resume} alt="resumepdf" />
+            {/* <a href={resume}>Resume</a> */}
+            <Document
+                file={resume}
+                onLoadSuccess={onDocumentLoadSuccess}
+            >
+                <Page pageNumber={pageNumber} />
+            </Document>
+
+            <p>Page {pageNumber} of {numPages}</p>
+            <button
+                onClick={() => setPageNumber(pageNumber === 1 ? 2 : 1)}
+            >
+                Page {pageNumber === 1 ? 2 : 1}
+            </button>
         </div>
     )
 }
